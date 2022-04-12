@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_alphabet_x10 - prints alphabets 10
@@ -9,18 +9,18 @@
 
 void print_alphabet_x10(void)
 {
-	int alphabet_count = 0;
+	int count_alphabets = 0;
 
-	while (alphabet_count < 10)
+	while (count_alphabets < 10)
 	{
-		char ch = 'a';
+		char alpha = 'a';
 
-		while (ch <= 'z')
+		while (alpha <= 'z')
 		{
-			_putchar(ch);
-			ch++;
+			_putchar(alpha);
+			alpha++;
 		}
-		alphabet_count++;
+		count_alphabets++;
 		_putchar('\n');
 	}
 }
